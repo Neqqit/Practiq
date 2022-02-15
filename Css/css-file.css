@@ -12,27 +12,24 @@
 }
 .mainContent {
     height: auto;
-    width: auto;
+    width: 100%;
     margin: auto;
+    max-width: 569px;
 }
 
 .lightRow {
     background: #E2E0E0;   
     height: 100%;
-    width: 100%;
 }
 .darkRow {
     background: #C4C4C4;
     height: 100%;
-    width: 100%;
 }
 .minRow {
-    width: 350px;
     height: 220px;
     margin-bottom: 30px;
 }
 .maxRow {
-    width: 50%;
     height: 340px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -62,5 +59,4 @@
     line-height: 15px;
     align-items: center;
     color: #FFFFFF;
-
 }
